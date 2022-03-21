@@ -35,6 +35,9 @@ p {
     font-size: 1.8rem;
     line-height: 2;
 }
+h2 {
+    padding: 2rem;
+}
 .site-header {
     background-color: white;
 }
@@ -155,9 +158,11 @@ p {
 
 form {
     background-color: var(--gris);
-    padding: 2 rem;
+    padding: 2rem;
     border-radius: 1rem;
-    margin-top: 3rem;
+    margin: 3rem  auto;
+    max-width: 800px;
+    max-width: 800px;
 }
 form legend {
     text-align: center;
@@ -168,7 +173,7 @@ form legend {
 @media (min-width: 768) {
     form {
         max-width: 800px;
-        margin: 3rem auto;
+        margin: 1rem auto;
     }
     .contenedor-campos {
         display: flex;
@@ -179,8 +184,16 @@ form legend {
         flex: 0 0 calc(50% - 1rem);
     }
 }
+.contenedor-campos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .campo {
     display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    flex: 0 0 calc(50% - 1rem);
 }
 .campo label {
     flex: 0 0 90px;
@@ -195,7 +208,7 @@ form legend {
     flex: 1;
     height: 6rem;
 }
-.w-100 {
+.fw-100 {
     flex: 0 0 100%;
 }
 
