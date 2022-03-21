@@ -29,7 +29,8 @@
         </div>
     </div>
 
-    <main class="servicios contenedor">
+<div class="contenedor">
+    <main class="servicios">
         <h2>Nuestros servicios</h2>
         <div class="contenedor-servicios">
             <div class="servicio">
@@ -58,7 +59,37 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos architecto cum, illo ad consequatur ipsa explicabo tenetur asperiores quisquam iusto reprehenderit id accusantium officiis. Necessitatibus dolore cum modi harum doloribus!</p>
             </div>
         </div>
+
     </main>
 
+    <section id="contacto" class="contacto">
+        <h2>Contcto</h2>
+        <form action="#">
+            <legend>Contactanos llenando este formulario</legend>
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" placeholder="nombre">
+                </div>
+                <div class="campo">
+                    <label>Teléfono</label>
+                    <input type="tel" name="nombre" placeholder="teléfono">
+                </div>
+                <div class="campo" w-100>
+                    <label>Email</label>
+                    <input type="mail" name="nombre" placeholder="Email">
+                </div>
+                <div class="campo 2-100">
+                    <label>Mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div><!--contenedor-campos-->
+            <div class="enviar">
+                <input type="submit" value="Enviar" class="boton">
+            </div>
+        </form>
+    </section>
+</div>
 </body>
 </html>
